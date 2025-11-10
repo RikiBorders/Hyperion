@@ -1,15 +1,16 @@
 import { StyleSheet } from 'react-native'
 
 const styles = StyleSheet.create({
-  container: {
+  CenterContainer: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
     padding: 16,
+    flexDirection: 'row',
+    gap: 300, // Customizable gap between elements
   },
   title: {
     fontSize: 20,
-    marginBottom: 12,
   },
   modalContent: {
     flex: 1,
